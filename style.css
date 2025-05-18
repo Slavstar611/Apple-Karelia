@@ -1,0 +1,136 @@
+body {
+    background-color: lightgray;
+}
+
+.stop {
+    position: sticky;
+    top: 0;
+}
+
+.header img {
+    width: 50px;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-top: 7px double black;
+    border-bottom: 7px double black;
+    background-color: lightgray;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #8e8989;
+    padding: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+article img {
+    width: 225px;
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: lightgray;
+    justify-content: center;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+article a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: white;
+    justify-content: center;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border: 3px solid black;
+}
+
+article img {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+.footer {
+    border-top: 7px double black;
+    border-bottom: 7px double black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 20px;
+}
+
+.footer a {
+    margin: 15px;
+}
