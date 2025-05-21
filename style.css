@@ -134,3 +134,24 @@ article p {
 .footer a {
     margin: 15px;
 }
+
+.O_cebe h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.O_cebe p {
+    display: flex;
+    justify-content: center;
+}
+
+.O_cebe img {
+    width: 5cm;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.galery {
+    display: flex;
+    justify-content: center;
+}
